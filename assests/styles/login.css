@@ -1,7 +1,14 @@
 body{
+    background-image: url(../images/a.jpg);
     font-family: 'Poppins' , sans-serif;
 }
 @media (min-width: 320px) and (max-width: 480px) {
+ ul {
+    display: none;
+ }
+ body{
+    background-image: none;
+ }
 
     
 }
